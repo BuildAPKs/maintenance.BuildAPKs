@@ -2,7 +2,7 @@
 # Copyright 2017-2019 by SDRausty. All rights reserved.
 # Website for this project at https://sdrausty.github.io/TermuxArch
 # See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS Thank You 
-# Use with csustion.  Working on a backup copy is prefered.
+# Use with caution!  Working in a backup copy of the repository is prefered.
 #############################################################################
 set -eu 
 mv .git/config ~/saved_git_config
