@@ -5,5 +5,6 @@
 #####################################################################
 set -e 
 date=`date +%Y%m%d`
-time=`date +%H:%M:%S`
-echo Commit on $date at $time
+ntime=`date +%N`
+printf "%s" "commit $ntime on $date"
+# sn.sh EOF
