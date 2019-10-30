@@ -6,5 +6,5 @@
 set -e 
 date=`date +%Y%m%d`
 ntime=`date +%N`
-printf "%s" "commit $ntime on $date"
+printf "%s\\n" "commit $ntime on $date"
 # sn.sh EOF
