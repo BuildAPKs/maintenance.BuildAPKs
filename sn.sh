@@ -4,7 +4,7 @@
 # Used for creating the commit message in conjunction with `gr.sh`.
 #####################################################################
 set -e 
-date=`date +%Y%m%d`
 ntime=`date +%N`
-printf "%s\\n" "commit $ntime on $date"
+ytime=`date +%Y`
+printf "%s\\n" "commit $ntime in $ytime"
 # sn.sh EOF
