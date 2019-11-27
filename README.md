@@ -1,8 +1,6 @@
 # maintenanceBuildAPKs
 maintenanceBuildAPKs
 buildAPKs
-===============
-[![Join the chat at https://gitter.im/termux/termux](https://badges.gitter.im/termux/termux.svg)](https://gitter.im/termux/termux)
 
 This project contains [source code](./sources) and [scripts](./scripts/build) to build APKs (Android Package Kits) on the [Termux](https://termux.com/) Android application. Quick setup instructions can be found here at https://sdrausty.github.io/docsBuildAPKs/setup and also https://sdrausty.github.io/docsBuildAPKs/reallyEasilyBuildAndroidAPKsOnDevice right here.
 
