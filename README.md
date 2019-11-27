@@ -1,5 +1,5 @@
-# [maintenanceBuildAPKs](https://github.com/BuildAPKs/maintenance.BuildAPKs)
-[maintenanceBuildAPKs](https://buildapks.github.io/maintenance.BuildAPKs/)
+# [maintenance.BuildAPKs](https://github.com/BuildAPKs/maintenance.BuildAPKs)
+[maintenance.BuildAPKs](https://buildapks.github.io/maintenance.BuildAPKs/)
 
 This project contains [source code](./sources) and [scripts](./scripts/build) to build APKs (Android Package Kits) on the [Termux](https://termux.com/) Android application. Quick setup instructions can be found here at https://sdrausty.github.io/docsBuildAPKs/setup and also https://sdrausty.github.io/docsBuildAPKs/reallyEasilyBuildAndroidAPKsOnDevice right here.
 
