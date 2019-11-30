@@ -10,9 +10,7 @@ mv .git/config ~/saved_git_config
 rm -rf .git
 git init
 git add .
-git commit 
+git commit -m reset $(sn.sh) # copy sn.sh to path before using this script 
 cp ~/saved_git_config .git/config
 git push "https://github.com/$PDIR/$WDIR" --force master
-
-
 # reset.repository.sh EOF
