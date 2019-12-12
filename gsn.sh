@@ -5,6 +5,5 @@
 #####################################################################
 set -e 
 date=`date +%Y%m%d`
-printf "%s\\n" "Computed on $date branch master: "
-pwd
+printf "%s" "Computed on $date branch master: ${PWD##*/}"
 # gsn.sh EOF
