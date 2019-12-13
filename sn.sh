@@ -5,6 +5,6 @@
 #####################################################################
 set -e 
 ntime=`date +%N`
-ytime=`date +%Y`
-printf "%s\\n" "commit $ntime in $ytime"
+ndate=`date +%Y%m%d`
+printf "%s\\n" "commit $ntime on $ndate"
 # sn.sh EOF
