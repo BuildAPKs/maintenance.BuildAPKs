@@ -6,9 +6,9 @@
 # To check the files use; sha512sum -c sha512.sum
 #####################################################################
 set -eu
-MTIME="$(ls -l --time-style=+"%s" .git/FETCH_HEAD | awk '{print $6}')"
+[ -f .git/FETCH_HEAD ] && MTIME="$(ls -l --time-style=+"%s" .git/FETCH_HEAD | awk '{print $6}')" || git pull && MTIME=0
 TIME="$(date +%s)"
-(if [[ $(($TIME - $MTIME)) -gt 43200 ]] ; then git pull ; fi) || git pull
+[[ $(($TIME - $MTIME)) -gt 43200 ]] && git pull
 .scripts/maintenance/vgen.sh
 rm -f *.sum
 FILELIST=( $(find . -type f | grep -wv .git | sort) )
