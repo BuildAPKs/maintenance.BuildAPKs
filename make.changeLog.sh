@@ -6,6 +6,7 @@
 set -e 
 touch CHANGE.log
 gsn.sh >> CHANGE.log
+echo >> CHANGE.log
 echo Size in KB >> CHANGE.log
 du -hks .git >> CHANGE.log
 du -hks >> CHANGE.log
