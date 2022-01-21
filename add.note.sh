@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/usr/bin/env sh
 # Copyright 2019-2022 (c) all rights reserved by S D Rausty
 # This script is for computing size and amount of built applications.
 #####################################################################
@@ -14,5 +14,4 @@ ls -Al /storage/emulated/0/Download/builtAPKs/|wc -l >> notes
 tail -n 24 notes
 sleep 1800
 done
-
-#EOF
+# add.note.sh EOF

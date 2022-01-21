@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # Copyright 2017-2022 (c) all rights reserved
 # by S D Rausty https://sdrausty.github.io
 #####################################################################
@@ -53,3 +53,4 @@ trap _STRPQUIT_ QUIT
 
 find -type d -name .git -execdir "$HOME"/buildAPKs/scripts/maintenance/make.tree.bash {} \;
 exit $?
+# make.trees.bash EOF

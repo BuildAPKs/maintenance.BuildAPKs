@@ -15,4 +15,4 @@ done
 fi
 ndate=`date +%Y%m%d`
 printf "%s\\n" "commit $ntime on $ndate"
-# sn.sh EOF
+# sn.bash EOF

@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # Copyright 2017-2022 by SDRausty. All rights reserved.  🌎 🌍 🌏 🌐 🗺
 # Hosted sdrausty.github.io/buildAPKs courtesy https://pages.github.com
 # https://sdrausty.github.io/buildAPKs/README has info about this project.
@@ -97,4 +97,4 @@ nice -n 19 ./buildAllInDirs.bash 2> "$RDR/var/log/stnderr.test.results.$NUM.log"
 echo ./buildAllInDirs.bash
 echo
 
-#EOF
+# test.harness.4buildAPKs.sh EOF

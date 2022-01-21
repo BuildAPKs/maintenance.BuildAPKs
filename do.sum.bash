@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # Copyright 2019-2022 (c) all rights reserved by S D Rausty; see LICENSE
 # https://sdrausty.github.io hosted courtesy https://pages.github.com
 # To create the checksum file and commit use; ./do.sum.bash
@@ -29,4 +29,4 @@ git commit
 git push
 ls
 printf "\\e[1;38;5;112m%s\\e[0m\\n" "$PWD"
-# do.sum.sh EOF
+# do.sum.bash EOF

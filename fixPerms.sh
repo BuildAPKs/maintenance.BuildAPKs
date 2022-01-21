@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/usr/bin/env sh
 # Copyright 2017-2022 (c) all rights reserved
 # SDRausty https://sdrausty.github.io
 # Used for reinitializing a git repository.
@@ -8,3 +8,4 @@ set -e
 find . -type f -exec chmod 640 {} \;
 find . -type f -name "*.sh" -exec chmod 750 {} \;
 find . -type d -exec chmod 770 {} \;
+# fixPerms.sh EOF

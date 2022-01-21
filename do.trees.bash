@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # Copyright 2019-2022 (c) all rights reserved by S D Rausty
 # To check md5sum file use; md5sum -c ztree.sha512.sum
 # To create checksum files and commit use; ./do.trees.bash
@@ -25,4 +25,4 @@ git add .
 git commit
 git push
 ls -al
-# do.trees.sh EOF
+# do.trees.bash EOF

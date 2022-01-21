@@ -1,4 +1,4 @@
-#!/bin/env bash 
+#!/usr/bin/env bash 
 # Copyright 2017-2022 (c) all rights reserved 
 # by S D Rausty https://sdrausty.github.io
 #####################################################################
@@ -54,3 +54,4 @@ trap _SUAGRQUIT_ QUIT
 
 find -type d -name .git -execdir /data/data/com.termux/files/home/buildAPKs/scripts/maintenance/update.git.repository.bash {} \;
 exit $?
+# update.all.git.repositories.bash EOF

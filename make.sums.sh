@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/usr/bin/env sh
 # Copyright 2019-2022 (c) all rights reserved
 # by BuildAPKs https://buildapks.github.io
 #####################################################################
@@ -14,5 +14,4 @@ printf "\\nChecking sha256sum...\\n"
 sha256sum -c sha256.sum
 printf "\\nChecking sha512sum...\\n"
 sha512sum -c sha512.sum
-
 # make.sums.sh EOF

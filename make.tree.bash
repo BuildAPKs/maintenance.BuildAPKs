@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # Copyright 2017-2022 (c) all rights reserved
 # by S D Rausty https://sdrausty.github.io
 #####################################################################
@@ -96,4 +96,4 @@ sha256sum tree.tar.gz > tree.sha256
 sha512sum tree.tar.gz  > tree.sha512
 exit $?
 
-#EOF
+#  make.tree.bash EOF

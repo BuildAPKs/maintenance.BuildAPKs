@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/usr/bin/env sh
 # Copyright 2017-2022 (c) all rights reserved
 # by S D Rausty https://sdrausty.github.io
 # Update submodules to latest version.
@@ -21,3 +21,4 @@ git submodule add https://github.com/sdrausty/buildAPKsTutorials sources/tutoria
 git submodule add https://github.com/sdrausty/buildAPKsWidgets sources/widgets
 git submodule add https://github.com/sdrausty/maintenanceBuildAPKs scripts/maintenance
 git submodule add https://github.com/sdrausty/shlibs scripts/shlibs
+# make.submodules.sh EOF

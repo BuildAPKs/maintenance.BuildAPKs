@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/usr/bin/env sh
 # Copyright 2017-2022 by SDRausty. All rights reserved.
 # SDRausty https://sdrausty.github.io
 #####################################################################
@@ -43,3 +43,4 @@ find .  -name AndroidManifest.xml -execdir sed -i 's/targetSdkVersion\=\"23\"/ta
 find .  -name AndroidManifest.xml -execdir sed -i 's/targetSdkVersion\=\"24\"/targetSdkVersion\=\"27\"/g' {} \;
 find .  -name AndroidManifest.xml -execdir sed -i 's/targetSdkVersion\=\"25\"/targetSdkVersion\=\"27\"/g' {} \;
 find .  -name AndroidManifest.xml -execdir sed -i 's/targetSdkVersion\=\"26\"/targetSdkVersion\=\"27\"/g' {} \;
+# updateAndroidManifest.sh EOF

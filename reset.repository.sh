@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/usr/bin/env sh
 # Copyright 2017-2022 by SDRausty. All rights reserved.
 # Use with caution!  Backing up the repository is recommended.
 #############################################################################

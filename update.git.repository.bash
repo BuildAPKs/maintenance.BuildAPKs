@@ -1,4 +1,4 @@
-#!/bin/env bash 
+#!/usr/bin/env bash 
 # Copyright 2017-2022 (c) all rights reserved 
 # by S D Rausty https://sdrausty.github.io
 #####################################################################
@@ -58,3 +58,4 @@ sleep 1.6
 echo "$PWD"
 echo 
 exit $?
+# update.git.repository.bash EOF
