@@ -1,5 +1,5 @@
-#!/bin/env sh 
-# Copyright 2019 (c) all rights reserved by S D Rausty 
+#!/bin/env sh
+# Copyright 2019 (c) all rights reserved by S D Rausty
 # This script is for computing size and amount of built applications.
 #####################################################################
 set -e

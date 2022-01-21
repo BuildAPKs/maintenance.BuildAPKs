@@ -1,9 +1,9 @@
-#!/bin/env bash 
-# Copyright 2017-2019 (c) all rights reserved 
+#!/bin/env bash
+# Copyright 2017-2019 (c) all rights reserved
 # by S D Rausty https://sdrausty.github.io
 #####################################################################
 now=`date +%Y%m%d%s`
-printf "\e[38;5;148m%s\n\e[0m" "$now" 
+printf "\e[38;5;148m%s\n\e[0m" "$now"
 $1 https://services.gradle.org/distributions/gradle-5.1-milestone-1-bin.zip.sha256
 $1 https://services.gradle.org/distributions/gradle-5.1-milestone-1-bin.zip
 $1 https://maven.google.com/com/android/support/appcompat-v7/28.0.0/appcompat-v7-28.0.0.aar.md5

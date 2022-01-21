@@ -1,8 +1,8 @@
-#!/bin/env sh 
+#!/bin/env sh
 # Copyright 2017-2019 by SDRausty. All rights reserved.
-# SDRausty https://sdrausty.github.io 
+# SDRausty https://sdrausty.github.io
 #####################################################################
-set -e 
+set -e
 find .  -name AndroidManifest.xml -execdir sed -i 's/minSdkVersion\=\"1\"/minSdkVersion\=\"14\"/g' {} \;
 find .  -name AndroidManifest.xml -execdir sed -i 's/minSdkVersion\=\"2\"/minSdkVersion\=\"14\"/g' {} \;
 find .  -name AndroidManifest.xml -execdir sed -i 's/minSdkVersion\=\"3\"/minSdkVersion\=\"14\"/g' {} \;

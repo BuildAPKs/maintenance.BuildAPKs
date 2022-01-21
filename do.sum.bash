@@ -1,5 +1,5 @@
 #!/bin/env bash
-# Copyright 2019 (c) all rights reserved by S D Rausty; see LICENSE  
+# Copyright 2019 (c) all rights reserved by S D Rausty; see LICENSE
 # https://sdrausty.github.io hosted courtesy https://pages.github.com
 # To create the checksum file and commit use; ./do.sum.bash
 # To see the file tree use; awk '{ print $2 }' md5.sum

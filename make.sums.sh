@@ -1,5 +1,5 @@
-#!/bin/env sh 
-# Copyright 2019 (c) all rights reserved 
+#!/bin/env sh
+# Copyright 2019 (c) all rights reserved
 # by BuildAPKs https://buildapks.github.io
 #####################################################################
 set -e -u

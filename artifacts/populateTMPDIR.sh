@@ -1,5 +1,5 @@
-#!/bin/env bash 
-# Copyright 2017-2019 (c) all rights reserved 
+#!/bin/env bash
+# Copyright 2017-2019 (c) all rights reserved
 # by S D Rausty https://sdrausty.github.io
 #####################################################################
 set -Eeuo pipefail
@@ -15,8 +15,8 @@ _PRINTP_() {
 if [ ! -e "$TMPDIR"/buildAPKsLibs ]
 then
 	_PRINTP_
-	mkdir "$TMPDIR"/buildAPKsLibs 
-	cd "$TMPDIR"/buildAPKsLibs 
+	mkdir "$TMPDIR"/buildAPKsLibs
+	cd "$TMPDIR"/buildAPKsLibs
 	find "$WDR"/libs -name "*.aar" -exec ln -s {} \; 2>"$WDR"/stnderr"$NUM".log ||:
 	find "$WDR"/libs  -name "*.jar" -exec ln -s {} \; 2>"$WDR"/stnderr"$NUM".log ||:
 	cd "$WDR"

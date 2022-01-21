@@ -1,8 +1,8 @@
 #!/bin/env bash
 # Copyright 2017-2019 by SDRausty. All rights reserved.  🌎 🌍 🌏 🌐 🗺
 # Hosted sdrausty.github.io/buildAPKs courtesy https://pages.github.com
-# https://sdrausty.github.io/buildAPKs/README has info about this project. 
-# https://sdrausty.github.io/buildAPKs/CONTRIBUTORS Thank you for your help.  
+# https://sdrausty.github.io/buildAPKs/README has info about this project.
+# https://sdrausty.github.io/buildAPKs/CONTRIBUTORS Thank you for your help.
 ################################################################################
 set -Eeuo pipefail
 shopt -s nullglob globstar
@@ -18,7 +18,7 @@ _STRPERROR_() { # Run on script error.
 _STRPEXIT_() { # Run on exit.
 	local RV="$?"
 	sleep 0.04
-	if [[ "$RV" = 0 ]] 
+	if [[ "$RV" = 0 ]]
 	then
 		printf "\\a\\e[0;32m%s %s \\a\\e[0m$VERSIONID\\e[1;34m: \\a\\e[1;32m%s\\e[0m\\n\\n\\a\\e[0m" "${0##*/}" "$ARGS" "DONE 🏁 "
 		printf "\\e]2; %s: %s \\007" "${0##*/} $ARGS" "DONE 🏁 "
@@ -27,18 +27,18 @@ _STRPEXIT_() { # Run on exit.
 		printf "\033]2; %s: %s %s \\007" "${0##*/} $ARGS" "[Exit Signal $RV]" "DONE 🏁 "
 	fi
 	printf "\\e[?25h\\e[0m"
-	set +Eeuo pipefail 
+	set +Eeuo pipefail
 	exit
 }
 
 __STRPSIGNAL_() { # Run on signal.
 	printf "\\e[?25h\\e[1;7;38;5;0mbuildAPKs %s WARNING:  Signal %s received!\\e[0m\\n" "${0##*/}" "$?"
- 	exit 241 
+ 	exit 241
 }
 
 _STRPQUIT_() { # Run on quit.
 	printf "\\e[?25h\\e[1;7;38;5;0mbuildAPKs %s WARNING:  Quit signal %s received!\\e[0m\\n" "${0##*/}" "$?"
- 	exit 242 
+ 	exit 242
 }
 
 NUM="$(date +%s)"
@@ -86,9 +86,9 @@ echo ./buildWidgets.bash
 echo ./buildClocks.bash
 nice -n 19 ./buildClocks.bash 2> "$RDR/var/log/stnderr.test.results.$NUM.log"
 echo ./buildClocks.bash
-echo ./buildCompasses.bash 
+echo ./buildCompasses.bash
 nice -n 19 ./buildCompasses.bash  2> "$RDR/var/log/stnderr.test.results.$NUM.log"
-echo ./buildCompasses.bash 
+echo ./buildCompasses.bash
 echo ./buildAll.bash
 nice -n 19 ./buildAll.bash 2> "$RDR/var/log/stnderr.test.results.$NUM.log"
 echo ./buildAll.bash
