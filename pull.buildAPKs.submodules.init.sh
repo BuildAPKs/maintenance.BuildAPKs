@@ -1,5 +1,5 @@
 #!/bin/env sh
-# Copyright 2017-2019 by SDRausty. All rights reserved.
+# Copyright 2017-2022 by SDRausty. All rights reserved.
 # by S D Rausty https://sdrausty.github.io
 # Update repository and initialize and update submodules.
 #####################################################################

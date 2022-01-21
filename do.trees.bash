@@ -1,5 +1,5 @@
 #!/bin/env bash
-# Copyright 2019 (c) all rights reserved by S D Rausty
+# Copyright 2019-2022 (c) all rights reserved by S D Rausty
 # To check md5sum file use; md5sum -c ztree.sha512.sum
 # To create checksum files and commit use; ./do.trees.bash
 # https://sdrausty.github.io courtesy https://pages.github.com
