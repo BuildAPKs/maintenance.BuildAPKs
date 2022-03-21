@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 # Copyright 2017-2022 by SDRausty. All rights reserved.
 # SDRausty https://sdrausty.github.io
-# Used for creating the commit message in conjunction with `gr.sh`.
+# used for creating a commit message
 #####################################################################
 set -e
 ntime="$(printf '%08.f\n' "$(date +%N || /system/bin/date +%S)")"
