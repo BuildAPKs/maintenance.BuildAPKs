@@ -10,7 +10,7 @@ then
 NTIME="$(cat /proc/sys/kernel/random/uuid)"
 NTIME="$(printf '%.8s' "$NTIME" | sed 's/-//g' )"
 else
-NTIME="$(printf '%08.f\n' "$(date +%N || /system/bin/date +%S)")"
+NTIME="$(printf '%.8s' "$(date +%N || /system/bin/date +%S)")"
 fi
 printf "%s\\n" "commit $NDATE.$NTIME"
 # sn.sh EOF
