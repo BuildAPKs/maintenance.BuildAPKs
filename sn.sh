@@ -8,7 +8,7 @@ NDATE="$(date +%Y%m%d)"
 if [ -r /proc/sys/kernel/random/uuid ]
 then
 NTIME="$(cat /proc/sys/kernel/random/uuid)"
-NTIME="$(printf '%s' "$NTIME" | sed 's/-//g' )"
+NTIME="$(printf '%.8s' "$NTIME" | sed 's/-//g' )"
 else
 NTIME="$(printf '%08.f\n' "$(date +%N || /system/bin/date +%S)")"
 fi
